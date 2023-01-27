@@ -1,0 +1,57 @@
+/*Style to keep the links with blue color and show underline only when the mouse button is over*/
+.lnk:visited, .lnk:link{
+   text-decoration: none;
+   color: rgb(11, 6, 109);
+   font-family: sans-serif;
+   padding-left: 10px;
+}
+.lnk:hover, .lnk:active{
+   text-decoration: underline;
+}
+/*Style to make the search bar centered with rounded corners*/
+.box{
+   border: solid 1px #b3babb;
+   border-radius: 25px;
+   padding: 0px 5px;
+   width: 500px;
+   height: 32px;
+   margin: 20px 0px;
+}
+/*Style to make the search buttons look the same as possible as the google's page*/
+.button{
+   border: solid 1px #edf2f3;    
+   background-color: #edf2f3;
+   padding-right: 20px;
+   padding-left: 20px;
+   border-radius: 5px;
+   height: 35px;
+   margin: 0px 5px;
+}
+/*Style to place the google's logo at 150 pixels from the top*/
+.logo{
+   padding-top: 150px;
+}
+/*Style to organize the table from Advanced Search page*/
+td, th {
+   text-align: left;
+   padding: 5px;
+}
+/*Style for the advanced search button */
+.advButton{
+   color: white;
+   background-color: #3f8ef5;
+   border: solid 1px;
+   border-radius: 5px;
+   height: 30px;    
+   margin-left: 450px;
+}
+.advButton:hover{
+   opacity: 0.8;    
+   border: solid 1px #2113eb;
+}
+/*Style to Advanced Search page heading*/
+h1{    
+   font-family: sans-serif;
+   color: #d93025;
+   font-size: 20px;
+}
